@@ -45,50 +45,53 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.ExpressApp.ScriptRecorder.v14.1, Version=14.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.ExpressApp.ScriptRecorder.Web.v14.1, Version=14.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.ExpressApp.Security.v14.1, Version=14.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.ExpressApp.Xpo.v14.1">
+    <Reference Include="DevExpress.ExpressApp.ScriptRecorder.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.ExpressApp.ScriptRecorder.Web.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.ExpressApp.Security.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Xpo.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Printing.v14.1.Core">
+    <Reference Include="DevExpress.Printing.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Data.v14.1">
+    <Reference Include="DevExpress.Data.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Images.v14.1">
+    <Reference Include="DevExpress.ExpressApp.Images.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.v14.1">
+    <Reference Include="DevExpress.ExpressApp.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Web.v14.1">
+    <Reference Include="DevExpress.ExpressApp.Web.v13.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
-    <Reference Include="DevExpress.Persistent.Base.v14.1">
+    <Reference Include="DevExpress.Persistent.Base.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Persistent.BaseImpl.v14.1">
+    <Reference Include="DevExpress.Persistent.BaseImpl.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.ASPxThemes.v14.1">
+    <Reference Include="DevExpress.Web.ASPxThemes.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Office.v14.1.Core">
+    <Reference Include="DevExpress.Office.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v14.1.Core">
+    <Reference Include="DevExpress.Docs.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.v14.1">
+    <Reference Include="DevExpress.RichEdit.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpo.v14.1.Web">
+    <Reference Include="DevExpress.Web.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpo.v14.1">
+    <Reference Include="DevExpress.Xpo.v13.1.Web">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System">

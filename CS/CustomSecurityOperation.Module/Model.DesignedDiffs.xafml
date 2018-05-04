@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="CustomSecurityOperation" Logo="ExpressAppLogo">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Task" ViewId="Task_ListView" ImageName="BO_Task" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="12.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="12.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="CustomTypePermissionObject_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="21">
+            <LayoutGroup Id="CustomTypePermissionObject" RelativeSize="100">
+              <LayoutItem Id="Object" ViewItem="Object" SizeConstraintsType="Default" Index="0" RelativeSize="29" IsNewNode="True" />
+              <LayoutGroup Id="Auto39ea7fb0-7cde-4b8a-8f95-b969f4c436d0" ShowCaption="False" Caption="" Direction="Horizontal" Index="1" RelativeSize="70" IsNewNode="True">
+                <LayoutGroup Id="Autocda3ddad-302c-4743-9a10-6fd724780498" ShowCaption="False" Caption="" Index="0" RelativeSize="14" IsNewNode="True">
+                  <LayoutItem Id="AllowRead" ViewItem="AllowRead" SizeConstraintsType="Default" Index="0" RelativeSize="30" IsNewNode="True" />
+                  <LayoutItem Id="AllowWrite" ViewItem="AllowWrite" SizeConstraintsType="Default" Index="1" RelativeSize="30" IsNewNode="True" />
+                  <LayoutItem Id="AllowCreate" ViewItem="AllowCreate" SizeConstraintsType="Default" Index="2" RelativeSize="38" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Auto0e3e0a44-28d1-45fe-bf11-0e4955ad7229" ShowCaption="False" Caption="" Index="1" RelativeSize="85" IsNewNode="True">
+                  <LayoutItem Id="AllowDelete" ViewItem="AllowDelete" SizeConstraintsType="Default" Index="0" RelativeSize="30" IsNewNode="True" />
+                  <LayoutItem Id="AllowNavigate" ViewItem="AllowNavigate" SizeConstraintsType="Default" Index="1" RelativeSize="30" IsNewNode="True" />
+                  <LayoutItem Id="AllowExport" ViewItem="AllowExport" SizeConstraintsType="Default" Index="2" RelativeSize="38" IsNewNode="True" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutItem Id="AllowExport" ViewItem="AllowExport" Removed="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="SecuritySystemTypePermissionsObjectBase" Removed="True" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" Index="1" RelativeSize="78">
+            <LayoutGroup Id="MemberPermissions" RelativeSize="100">
+              <LayoutItem Id="MemberPermissions" SizeConstraintsType="Default" RelativeSize="100" ViewItem="MemberPermissions" />
+            </LayoutGroup>
+            <LayoutGroup Id="ObjectPermissions" RelativeSize="100">
+              <LayoutItem Id="ObjectPermissions" SizeConstraintsType="Default" RelativeSize="100" ViewItem="ObjectPermissions" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SecuritySystemTypePermissionsObjectOwner_TypePermissions_ListView">
+      <Columns>
+        <ColumnInfo Id="Object" Width="100" />
+        <ColumnInfo Id="AllowRead" Width="112" />
+        <ColumnInfo Id="AllowWrite" Width="112" />
+        <ColumnInfo Id="AllowCreate" Width="112" />
+        <ColumnInfo Id="AllowDelete" Width="112" />
+        <ColumnInfo Id="AllowNavigate" Width="106" />
+        <ColumnInfo Id="AllowExport" PropertyName="&lt;CustomTypePermissionObject&gt;AllowExport" Width="86" IsNewNode="True" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="CustomSecurityOperation" Logo="ExpressAppLogo">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Task" ViewId="Task_ListView" ImageName="BO_Task" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="14.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="12.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="CustomTypePermissionObject_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="25">
+            <LayoutGroup Id="CustomTypePermissionObject" RelativeSize="100">
+              <LayoutItem Id="TargetType" ViewItem="TargetType" SizeConstraintsType="Default" Index="0" RelativeSize="27.586206896551722" IsNewNode="True" />
+              <LayoutGroup Id="Auto39ea7fb0-7cde-4b8a-8f95-b969f4c436d0" ShowCaption="False" Caption="Auto39ea7fb0-7cde-4b8a-8f95-b969f4c436d0(5)" Direction="Horizontal" Index="1" RelativeSize="72.41379310344827" IsNewNode="True">
+                <LayoutGroup Id="Autocda3ddad-302c-4743-9a10-6fd724780498" ShowCaption="False" Caption="Autocda3ddad-302c-4743-9a10-6fd724780498(6)" Index="0" RelativeSize="32.038834951456309" IsNewNode="True">
+                  <LayoutItem Id="AllowRead" ViewItem="AllowRead" SizeConstraintsType="Default" Index="0" RelativeSize="35.714285714285715" IsNewNode="True" />
+                  <LayoutItem Id="AllowWrite" ViewItem="AllowWrite" SizeConstraintsType="Default" Index="1" RelativeSize="28.571428571428573" IsNewNode="True" />
+                  <LayoutItem Id="AllowCreate" ViewItem="AllowCreate" SizeConstraintsType="Default" Index="2" RelativeSize="35.714285714285715" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Auto0e3e0a44-28d1-45fe-bf11-0e4955ad7229" ShowCaption="False" Caption="Auto0e3e0a44-28d1-45fe-bf11-0e4955ad7229(10)" Index="1" RelativeSize="67.961165048543691" IsNewNode="True">
+                  <LayoutItem Id="AllowDelete" ViewItem="AllowDelete" SizeConstraintsType="Default" Index="0" RelativeSize="35.714285714285715" IsNewNode="True" />
+                  <LayoutItem Id="AllowNavigate" ViewItem="AllowNavigate" SizeConstraintsType="Default" Index="1" RelativeSize="28.571428571428573" IsNewNode="True" />
+                  <LayoutItem Id="AllowExport" ViewItem="AllowExport" SizeConstraintsType="Default" Index="2" RelativeSize="35.714285714285715" IsNewNode="True" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutItem Id="AllowExport" ViewItem="AllowExport" Removed="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="SecuritySystemTypePermissionsObjectBase" Removed="True" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" Index="1" RelativeSize="75">
+            <LayoutGroup Id="MemberPermissions" RelativeSize="100">
+              <LayoutItem Id="MemberPermissions" SizeConstraintsType="Default" RelativeSize="100" ViewItem="MemberPermissions" />
+            </LayoutGroup>
+            <LayoutGroup Id="ObjectPermissions" RelativeSize="100">
+              <LayoutItem Id="ObjectPermissions" SizeConstraintsType="Default" RelativeSize="100" ViewItem="ObjectPermissions" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SecuritySystemTypePermissionsObjectOwner_TypePermissions_ListView">
+      <Columns>
+        <ColumnInfo Id="Object" Width="100" />
+        <ColumnInfo Id="AllowRead" Width="112" />
+        <ColumnInfo Id="AllowWrite" Width="112" />
+        <ColumnInfo Id="AllowCreate" Width="112" />
+        <ColumnInfo Id="AllowDelete" Width="112" />
+        <ColumnInfo Id="AllowNavigate" Width="106" />
+        <ColumnInfo Id="AllowExport" PropertyName="&lt;CustomTypePermissionObject&gt;AllowExport" Width="86" IsNewNode="True" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
